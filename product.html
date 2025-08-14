@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Greenden</title>
+    <!--Tailwind CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Responsive Navbar -->
+    <nav class="bg-green-100 p-3 flex items-center justify-between shadow-xl sticky top-0 z-10">
+        <h1 class="text-2xl ">Greenden</h1>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+            class="w-6 h-6 md:hidden">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5 " />
+        </svg>
+
+        <div>
+            <ul class=" gap-5 text-gray-600 hidden md:flex">
+                <li>
+                    <a class="hover:underline hover:text-black" href="index.html">Home</a>
+                </li>
+                <li>
+                    <a class="hover:underline  hover:text-black" href="product.html">products</a>
+                </li>
+                <li>
+                    <a class="hover:underline  hover:text-black" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+
+    </nav>
+    <!-- Header section -->
+    <section>
+        <div class="text-center font-bold text-3xl mt-10">
+            <h2>Our Products</h2>
+
+        </div>
+        <div class="flex justify-center mt-3 ">
+            <input type="text" class="border border-black p-2 m-3" style="width: 80%; "
+                placeholder="search for a Product...">
+        </div>
+    </section>
+
+    <!-- Images Section -->
+    <section class="p-4 text-center">
+        <div class="m-10 justify-around">
+            <div class="grid grid-cols-2 md:grid-cols-4 mt-5 m-5 justify-evenly">
+                <div class="">
+                    <img src="./bestseller_1.jpg" class="inline hover:shadow-xl transform hover:-translate-y-2"
+                        alt="BS1">
+                    <h1>Rose plant</h1>
+                    <p>$20</p>
+                </div>
+                <div>
+                    <img src="./bestseller_2.png" class="inline hover:shadow-xl transform hover:-translate-y-2"
+                        alt="BS2">
+                    <h1>Lily Plant</h1>
+                    <p>$50</p>
+                </div>
+                <div>
+                    <img src="./bestseller_3.png" class="inline hover:shadow-xl transform hover:-translate-y-2"
+                        alt="BS3">
+                    <h1>Snake plant</h1>
+                    <p>$45</p>
+                </div>
+                <div>
+                    <img src="./bestseller_4.png" class="inline hover:shadow-xl transform hover:-translate-y-2"
+                        alt="BS4">
+                    <h1>Money plant</h1>
+                    <p>$70</p>
+                </div>
+
+
+            </div>
+        </div>
+
+        <div class="m-10 justify-around">
+            <div class="grid grid-cols-2 md:grid-cols-4 mt-5 m-5 justify-evenly">
+                <div class="">
+                    <img src="./product_5.png" class="inline hover:shadow-xl transform hover:-translate-y-2" alt="BS1">
+                    <h1>Ambella Intense Purple</h1>
+                    <p>$30</p>
+                </div>
+                <div>
+                    <img src="./product_6.png" class="inline hover:shadow-xl transform hover:-translate-y-2" alt="BS2">
+                    <h1>Monstera Plant</h1>
+                    <p>$60</p>
+                </div>
+                <div>
+                    <img src="./product_7.png" class="inline hover:shadow-xl transform hover:-translate-y-2" alt="BS3">
+                    <h1>prayer plant</h1>
+                    <p>$75</p>
+                </div>
+                <div>
+                    <img src="./product_8.png" class="inline hover:shadow-xl transform hover:-translate-y-2" alt="BS4">
+                    <h1>Dieffen bachia</h1>
+                    <p>$90</p>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <section class="bg-green-100 p-10 flex flex-col gap">
+            <h1 class="text-4xl font-bold">Greenden</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, deserunt!</p>
+            <p>@ 2025 Greenden.com</p>
+
+        </section>
+    </section>
+</body>
